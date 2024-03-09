@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Google Sans Regular";
+    box-sizing: border-box;
+}
+body{
+    background: black;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background: rgba(111, 111, 111, 0.575);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    box-shadow: 0px 8px 12px -5px rgb(195, 162, 255);
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: "Zen Dots", sans-serif;
+}
+
+.hamburger{
+    display: none;
+}
+
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar ul li a{
+    display: block;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2;
+    margin: 0 5px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-bar ul li a:hover{
+    color: black;
+    background: white;
+}
+
+/*contenedorbody*/
+.body-content-party{
+    margin-top: 4%;
+}
+
+.body-content-party .party-info-and-img{
+    display: flex;
+}
+
+.body-content-party .party-info-and-img .img-info{
+    display: flex;
+    background: rgba(128, 128, 128, 0.526);
+    border-radius: 0px 50px 50px 0px;
+    color: white;
+}
+
+.body-content-party .party-info-and-img .img-info .content{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.body-content-party .party-info-and-img .img-info .content h3{
+    font-family: "Zen Dots", sans-serif;
+}
+
+.body-content-party .party-info-and-img .img-info .content img{
+    width: 90%;
+    padding-top: 5px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.body-content-party .party-info-and-img .img-info .content p{
+    font-size: 12px;
+    width: 100%;
+    text-align: justify;
+    word-spacing: -1px;
+    padding-top: 5px;
+    font-family: "Poppins", sans-serif;
+}
+
+.body-content-party .party-info-and-img .info{
+    color: white;
+    margin-left: 2%;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.body-content-party .party-info-and-img .info h2{
+    font-family: "Zen Dots", sans-serif;
+    text-align: justify;
+}
+
+.body-content-party .party-info-and-img .info p{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    padding-top: 12px;
+    text-align: justify;
+    width: 95%;
+}
+
+.body-content-party .party-info-and-img .info img{
+    height: 150px;
+    width: 20%;
+    margin-top: 2%;
+}
+
+.body-content-party .body-content-tipos-artisticos{
+    color: white;
+    margin-top: 2%;
+    display: flex;
+    gap: 25px;
+}
+
+.body-content-party .body-content-tipos-artisticos .tipos-artisticos{
+    width: 65%;
+    margin-left: 2%;
+}
+
+.body-content-party .body-content-tipos-artisticos .tipos-artisticos h2{
+    font-family: "Zen Dots", sans-serif;
+}
+
+.body-content-party .body-content-tipos-artisticos .tipos-artisticos h3{
+    font-family: "Zen Dots", sans-serif;
+}
+
+.body-content-party .body-content-tipos-artisticos .tipos-artisticos .tipos p{
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-size: 13.5px;
+}
+
+.body-content-party .body-content-tipos-artisticos .tipos-artisticos .tipos img{
+    width: 90%;
+}
+
+.body-content-party .body-content-tipos-artisticos .artistas{
+    text-align: center;
+}
+
+.body-content-party .body-content-tipos-artisticos .artistas h3{
+    font-family: "Zen Dots", sans-serif;
+}
+
+.body-content-party .body-content-tipos-artisticos .artistas img{
+    width: 50%;
+    padding-top: 26px;
+    border-radius: 0px 120px 0px 120px;
+}
+
+.body-content-party .body-content-tipos-artisticos .artistas p{
+    font-family: "Poppins", sans-serif;
+}
+
+.body-content-party .content-body-msg-register{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    color: white;
+    background-image: linear-gradient(135deg, rgb(0, 0, 1)0%, rgba(61, 58, 58, 0.787)100%), url(https://concepto.de/wp-content/uploads/2018/02/artes-plasticas-cuadro-min-e1519328313204-800x432.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+}
+
+.body-content-party .content-body-msg-register form{
+    padding: 30px 30px;
+}
+
+.body-content-party .content-body-msg-register form label{
+    font-family: "Zen Dots", sans-serif;    
+}
+
+.body-content-party .content-body-msg-register form input{
+    border-radius: 50px;
+    padding: 5px 5px;
+}
+
+.body-content-party .content-body-msg-register form input{
+    width: 180px;
+}
+
+.body-content-party .content-body-msg-register form .buttons-env input{
+    width: 80px;
+    cursor: pointer;
+    background: rgb(110, 178, 160);
+    border: none;
+    color:  black;
+    font-size: 18px;
+}
+
+.body-content-party .content-body-msg-register .register form input{
+    margin-top: 10px;
+    width: 180px;
+}
+
+.body-content-party .content-body-msg-register .register form .bottons{
+    display: flex;
+    gap: 20px;
+}
+
+.body-content-party .content-body-msg-register .register form .bottons input{
+    cursor: pointer;
+    background: rgb(110, 178, 160);
+    border: none;
+    color:  black;
+    font-size: 18px;
+    width: 80px;
+}
+
+footer{
+    background: rgb(0, 0, 0);
+    display: flex;
+    gap: 50px;
+    color:white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%; 
+}
+
+footer .fotter-content h2{
+    font-family: "Zen Dots", sans-serif;    
+}
+
+footer .fotter-content h3{
+    font-family: "Poppins", sans-serif;
+}
+
+footer .fotter-content ul li a{
+    color: white;
+    font-size: 20px;
+    flex-direction: column;    
+    padding: 15px 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+footer .fotter-content ul li a:hover{
+    background: white;
+    color: black;
+    border-radius: 50px;
+}
+
+.copy{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.copy p{
+    padding: 30px 30px;
+}
+
+/*responsivemobile*/
+@media only screen and (max-width:1320px){
+    header{
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (max-width:1100px){
+    header{
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger .line{
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 6px 0;
+    }
+
+    .nav-bar{
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: rgba(0, 0, 0, 0.867);
+        transition: 0.2s;
+        overflow: hidden;
+    }
+
+    .nav-bar.active{
+        height: 400px;
+    }
+
+    .nav-bar ul{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+
+    .nav-bar.active ul{
+        opacity: 1;
+    }
+
+    .nav-bar ul li a{
+        margin-bottom: 12px;
+    }
+
+    .body-content-party .party-info-and-img{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin-top: 10%;
+    }
+
+    .body-content-party .party-info-and-img .img-info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body-content-party .party-info-and-img .img-info .content{
+        width: 95%;
+    }
+
+    .body-content-party .body-content-tipos-artisticos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .body-content-party .body-content-tipos-artisticos .tipos-artisticos{
+        width: 95%;
+        margin-top: 5%;
+    }
+
+    .body-content-party
+    .content-body-msg-register{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    .body-content-party
+    .content-body-msg-register
+    .msg form textarea{
+        width: 100%;
+    }
+
+    .body-content-party
+    .content-body-msg-register
+    .register form input{
+        width: 280px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+}
